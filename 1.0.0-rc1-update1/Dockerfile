@@ -40,4 +40,4 @@ RUN LIBUV_VERSION=1.4.2 \
 ENV PATH $PATH:$DNX_USER_HOME/runtimes/default/bin
 
 # Prevent `dnu restore` from stalling (gh#63, gh#80)
-ENV MONO_THREADS_PER_CPU 50
+ENV MONO_THREADS_PER_CPU 2000
